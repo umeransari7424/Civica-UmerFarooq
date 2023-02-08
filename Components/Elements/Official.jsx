@@ -158,7 +158,9 @@ function Official() {
             </div>
           </div>
           <div className="col-md-6">
-            <img src="Assets/Path 27330.png"className="img-fluid" alt="not found" />
+            {/* <img src="Assets/Path 27330.png"className="img-fluid" alt="not found" />
+             */}
+             <video className='img-fluid mt-3' style={{height:"70%"}} src="Assets/ZIMO+CIVICA 10229.mp4" controls></video>
           </div>
 
         </div>

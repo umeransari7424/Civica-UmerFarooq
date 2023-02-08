@@ -42,7 +42,7 @@ function Header() {
                 <span className='london'>
                 17:23 LONDON UNITED KINGDOM
                 </span> 
-                <span className='london'>
+                <span className='london ' style={{color:"#BE9F56"}}>
                 SUNDAY,12 FEBRUARY 2023
                 </span>
 
