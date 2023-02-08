@@ -28,7 +28,7 @@ function Header() {
       <ul className="navbar-nav  mb-2 mb-lg-0">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/">
-          <img src="Assets/ZIMO ZIG B.png" className='img-fluid' style={{width:"130px"}} alt="not found" />
+          <img src="Assets/ZIMO ZIG B.png" className='img-fluid zimo-header' style={{width:"130px"}} alt="not found" />
           </a>
         </li>
       </ul>
@@ -55,9 +55,9 @@ function Header() {
         &nbsp; &nbsp; &nbsp; 
         <li className="nav-item">
         <img src="Assets/Path 7582.png" className='img-fluid mt-2' alt="" />
-        </li>
+       
         &nbsp; &nbsp;  &nbsp; 
-        <li className="nav-item">
+      
         <img src="Assets/Group 2867.png" className='img-fluid mt-2' alt="" />
         </li>
       </ul>
