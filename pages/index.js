@@ -4,7 +4,7 @@ import Global from '../Components/Elements/Global'
 
 // import styles from '../styles/Home.module.css'
 import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.bundle"
+// import "bootstrap/dist/js/bootstrap.bundle"
 import Personalised from '../Components/Elements/Personalised'
 import Worldwide from '../Components/Elements/Worldwide'
 import Zimo from '../Components/Elements/Zimo'
