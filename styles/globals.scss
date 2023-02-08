@@ -1,0 +1,196 @@
+.header{
+    .our{
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .london{
+      // margin-top: 10px
+      font-size: 11px;
+      font-weight: 500;
+      display: flex;
+      // line-height: 2;
+      flex-direction: column;
+    }
+}
+.hero{
+  .civica{
+    margin-top: 60px;
+  }
+  .years{
+    margin-top: 50px;
+    h4{
+      color: #008999;
+      font-weight: 400;
+    }
+    h1{
+      font-size: 60px;
+      font-weight: 400;
+    }
+    p{
+      font-weight: 500;
+    }
+  }
+}
+.experience{
+  background-image: url("../Media/Scroll\ Group\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height:800px;
+}
+.global{
+  // background-color: blue;
+  background-image: url("../Media/World Map (dots).svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height:840px;
+  // margin-top: 50px;
+  .vision{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+  }
+}
+.zimo{
+  background-color: black;
+ 
+}
+.official{
+  .civica-para{
+    margin-top: 15px;
+    line-height: 0.1;
+    font-size: 10.5px;
+  }
+  .civica-para2{
+    margin-top: 20px;
+    line-height:2;
+    font-size: 10.5px;
+  }
+  .partner{
+    font-size: 10.5px;
+  }
+  .local{
+    font-size: 11.5px;
+    font-weight: 500;
+  }
+  h5{
+    color: #008999;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .off-partner{
+    color: #008999 !important;
+
+  }
+  .software{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2.4;
+  }
+  .million{
+    color: #008999;
+  }
+}
+
+.personalised{
+  // background-color: blue;
+  background-image: url("../Media/mansion.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height:800px;
+  color: white;
+  .person{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-right: 30px;
+
+  }
+}
+.worldwide{
+  ul{
+    list-style: none !important;
+    line-height: 2.2;
+    font-size: 12px;
+  }
+  .draw{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    h4{
+      color: #008999;
+      font-size: 15px;
+    }
+  }
+  .enteries{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+@media screen and (max-width: 600px){
+  .global{
+    height: auto;
+    .vision{
+      padding-top: 40px;
+    }
+  }
+  .personalised{
+    height: auto;
+    .person{
+      // margin-top: -10px !important;
+      padding-top: 30px;
+      height: auto;
+    }
+  }
+  .official{
+    .central{
+      display: flex;
+      flex-direction: column;
+    }
+    .civica-para{
+      line-height: 2;
+      font-size: 10.5px;
+    }
+  }
+  .header{
+    .zim{
+      display: none !important;
+    }
+    .our{
+      display: none !important;
+    }
+  }
+  .experience{
+    height: 200px;
+  }
+  .hero{
+    .civica{
+      margin-top: 30px;
+    }
+    .years{
+      margin-top: 20px;
+      h4{
+        color: #008999;
+        font-weight: 400;
+      }
+      h1{
+        font-size: 30px;
+        font-weight: 400;
+      }
+      p{
+        font-weight: 500;
+      }
+    }
+  }
+
+  
+}
